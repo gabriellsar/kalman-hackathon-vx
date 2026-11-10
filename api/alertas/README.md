@@ -9,13 +9,13 @@ Não é uma stack SAM: ainda não há Lambda, agendamento nem envio.
 ## Quando é enviado
 
 Resumo diário às 08:00, um por pessoa que acompanha a empresa, **só quando há algo a avisar**. O envio real depende de
-SES com remetente próprio, que ainda não existe (pendência em `front/cadastro-teste/TELAS.md`).
+SES com remetente próprio, que ainda não existe (pendência em `front/web/TELAS.md`).
 
 ## Entrada
 
 `email_alerta.montar(dados)` devolve `{"assunto", "html", "texto"}` ou **`None` quando não há nada para decidir, nada
 aprovado e nenhuma tarefa em risco** (a leitura do DOU sozinha não gera e-mail). Todas as chaves são opcionais; os
-nomes seguem os tipos `Obrigacao`, `Tarefa` e `Historico` de `front/cadastro-teste/src/matriz.ts`.
+nomes seguem os tipos `Obrigacao`, `Tarefa` e `Historico` de `front/web/src/matriz.ts`.
 
 ```python
 {

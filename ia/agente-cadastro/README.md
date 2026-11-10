@@ -37,7 +37,7 @@ Você manda uma pergunta, ele responde com dados reais do lake:
 
 ## Pré-requisitos
 
-Confirme que estes stacks já estão implantados na conta `520499255485` (`us-east-1`):
+Confirme que estes stacks já estão implantados na conta `<ID_DA_CONTA>` (`us-east-1`):
 
 | Stack | O que cria |
 |---|---|
@@ -223,7 +223,7 @@ Usuário / Front
 
 ## Recursos criados na AWS
 
-Stack CloudFormation: **`ia-agente`** — conta `520499255485`, região `us-east-1`.
+Stack CloudFormation: **`ia-agente`** — conta `<ID_DA_CONTA>`, região `us-east-1`.
 
 | Recurso | Nome | Descrição |
 |---|---|---|
@@ -239,7 +239,6 @@ Stack CloudFormation: **`ia-agente`** — conta `520499255485`, região `us-east
 ## Dados que o agente acessa
 
 Somente leitura nas camadas **Silver** e **Gold**. Nunca grava no lake.
-Detalhes completos em [`docs/ACESSO-AOS-DADOS.md`](../docs/ACESSO-AOS-DADOS.md).
 
 | Tabela | Descrição |
 |---|---|

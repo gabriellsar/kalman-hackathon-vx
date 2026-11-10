@@ -3,7 +3,7 @@ Gera o preview do aviso de mudanças com dados fictícios: aviso-mudancas.html e
 
     python api/alertas/preview/gerar_preview.py      (ou, de api/: uv run python alertas/preview/gerar_preview.py)
 
-Os casos saem de front/cadastro-teste/src/dash/dados.ts e da leitura real da semana (1.931 atos do DOU de 03 a
+Os casos saem de front/web/src/dash/dados.ts e da leitura real da semana (1.931 atos do DOU de 03 a
 06/11/2026, 13 relevantes). A empresa, as pessoas, as tarefas e a decisão sobre a REN 1.175 são exemplo.
 Data fixa (08/11/2026) para o preview não mudar de um dia para o outro.
 """
