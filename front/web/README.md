@@ -1,6 +1,6 @@
 # front/web
 
-Front do Kalman: landing, cadastro, matriz de obrigações e painel executivo. Vite, React 19, TypeScript, Amplify (login no Cognito) e React Router, na identidade visual **Laudo** (ver [`identidade-visual/`](../../identidade-visual/README.md)).
+Front do Kalman: landing, cadastro, matriz de obrigações e painel executivo. Vite, React 19, TypeScript, Amplify (login no Cognito) e React Router, na identidade visual **Laudo** (ver [`front/identidade-visual/`](../identidade-visual/README.md)).
 
 Detalhe de cada tela, regra e teste em [`TELAS.md`](TELAS.md).
 

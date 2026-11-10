@@ -54,5 +54,5 @@ Cuidados:
 | Agente do cadastro | [`ia/agente-cadastro`](../ia/agente-cadastro/README.md) |
 | Lakehouse (ETLs) | [`pipeline`](../pipeline/README.md) · [matriz](../pipeline/matriz/README.md) · [DuckDB](../pipeline/DUCKDB.md) |
 | Front | [`front/web`](../front/web/README.md) |
-| Identidade visual | [`identidade-visual`](../identidade-visual/README.md) |
+| Identidade visual | [`front/identidade-visual`](../front/identidade-visual/README.md) |
 | Linha de base por regras para as propostas (Aurora) | [`ia/propostas/atos-relevantes-aurora`](../ia/propostas/atos-relevantes-aurora/README.md) |

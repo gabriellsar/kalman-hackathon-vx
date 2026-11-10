@@ -37,12 +37,12 @@ O Kalman roda inteiro em serviços gerenciados da AWS (`us-east-1`), sem servido
 ## Onde está cada coisa
 
 ```
-api/                 APIs serverless (cnpj-cadastro, matriz, chatbot) e o modelo do e-mail de alertas
-ia/                  agentes no Bedrock AgentCore (chatbot, cadastro) e o fluxo de propostas
-pipeline/            ETLs do lakehouse (cadastro, dou, matriz, kb) com DuckDB + Iceberg
-front/web/           landing, cadastro, matriz e painel executivo (React 19 + Vite)
-identidade-visual/   marca, tokens e componentes (versão "Laudo")
-docs/                esta documentação
+api/                       APIs serverless (cnpj-cadastro, matriz, chatbot) e o modelo do e-mail de alertas
+ia/                        agentes no Bedrock AgentCore (chatbot, cadastro) e o fluxo de propostas
+pipeline/                  ETLs do lakehouse (cadastro, dou, matriz, kb) com DuckDB + Iceberg
+front/web/                 landing, cadastro, matriz e painel executivo (React 19 + Vite)
+front/identidade-visual/   marca, tokens e componentes (versão "Laudo")
+docs/                      esta documentação
 ```
 
 Detalhes técnicos de cada parte estão no README da própria pasta. Como rodar e testar: [desenvolvimento.md](desenvolvimento.md).

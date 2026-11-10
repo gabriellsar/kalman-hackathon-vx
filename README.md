@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="identidade-visual/marca/kalman-horizontal.svg" alt="Kalman" height="64">
+  <img src="front/identidade-visual/marca/kalman-horizontal.svg" alt="Kalman" height="64">
 </p>
 
 <p align="center"><b>Saiba quais normas afetam a sua empresa.</b></p>
@@ -104,7 +104,7 @@ make test
 | IA do Kalman (assistente) e o contrato da resposta | [ia/chatbot](ia/chatbot/README.md) · [api/chatbot](api/chatbot/README.md) |
 | Leitura do DOU e demais ETLs | [pipeline](pipeline/README.md) |
 | Telas do front | [front/web](front/web/README.md) |
-| Marca e design system | [identidade-visual](identidade-visual/README.md) |
+| Marca e design system | [front/identidade-visual](front/identidade-visual/README.md) |
 
 ## Licença
 
