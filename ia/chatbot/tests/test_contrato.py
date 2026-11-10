@@ -87,7 +87,7 @@ def test_o_schema_barra_o_que_nao_deve_passar(schema, exemplos, mudanca):
 
 # ---------------------------------------------------------------- os tipos do front seguem o contrato
 
-FRONT = Path(__file__).parents[3] / "front" / "cadastro-teste" / "src" / "chatbot.ts"
+FRONT = Path(__file__).parents[3] / "front" / "web" / "src" / "chatbot.ts"
 TIPO_TS = {"empresa": "Empresa", "atos": "Ato", "obrigacoes": "Obrigacao", "tarefas": "Tarefa",
            "linha_do_tempo": "EventoDaLinhaDoTempo", "versoes": "Versao"}
 

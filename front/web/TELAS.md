@@ -209,7 +209,7 @@ demo; o envio real do código ainda precisa de uma pessoa com caixa de entrada.
    cadastro terminou, criar um campo em `perfil.py` (como os `conferido_*`). O mesmo vale para "Pular esta etapa".
 4. **Assistente e linha do tempo** do front do Gabriel (`Chatbot.tsx`, `BlocosChat.tsx`, `Matriz.tsx`) no painel, na
    identidade Laudo.
-5. **Lovable:** o app precisa estar na raiz de um repositório (hoje está em `front/cadastro-teste/`), a hospedagem
+5. **Lovable:** o app precisa estar na raiz de um repositório (hoje está em `front/web/`), a hospedagem
    precisa do fallback de SPA para as rotas, e a URL dela precisa entrar no `AllowedOrigins` das stacks (CORS).
 6. `custom:cnpj` no Cognito, para o vínculo conta → CNPJ valer fora do navegador.
 7. Logo de verdade no e-mail do código (imagem num endereço público) e remetente próprio (SES).

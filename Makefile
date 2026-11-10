@@ -5,7 +5,7 @@ API_DIR := api
 
 API_TARGETS := install test smoke smoke-login seed-aurora build deploy clean
 
-FRONT_DIR := front/cadastro-teste
+FRONT_DIR := front/web
 FRONT_TARGETS := install env dev build check clean
 
 IA_DIR := ia
@@ -34,10 +34,10 @@ help:
 	@echo "  make api-clean     remove .venv e caches"
 	@echo "  make matriz-test   testes da API da matriz"
 	@echo "  make matriz-deploy  sam deploy da API da matriz (stack matriz-api)"
-	@echo "  make front-env     gera front/cadastro-teste/.env com os outputs da stack"
-	@echo "  make front-dev     sobe o front de teste em http://localhost:5173"
-	@echo "  make front-build   build de producao do front de teste"
-	@echo "  make front-check   typecheck do front de teste"
+	@echo "  make front-env     gera front/web/.env com os outputs da stack"
+	@echo "  make front-dev     sobe o front em http://localhost:5173"
+	@echo "  make front-build   build de producao do front"
+	@echo "  make front-check   typecheck do front"
 	@echo "  make pipeline-test  roda os testes dos ETLs (sem AWS)"
 	@echo "  make pipeline-lint  cfn-lint nos templates dos ETLs"
 	@echo "  make pipeline-deploy  sam deploy do ETL do cadastro e depois do DOU"

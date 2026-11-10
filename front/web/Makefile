@@ -1,4 +1,4 @@
-# Front de TESTE do fluxo de cadastro (Vite + React + Amplify).
+# Front web do Kalman: landing, cadastro, matriz e painel executivo (Vite + React + Amplify).
 STACK ?= cnpj-cadastro
 MATRIZ_STACK ?= matriz-api
 CHATBOT_STACK ?= chatbot-api
