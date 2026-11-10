@@ -63,6 +63,10 @@ Cada stack depende da anterior. Todas usam `confirm_changeset`: confira o change
   `indefinido` não vai para o documento.
 - **`regras_matriz.py`**: propostas são deduplicadas por (CNPJ, id da proposta), não só pelo id.
 
+## Linha de base por regras
+
+[`atos-relevantes-aurora/`](atos-relevantes-aurora/README.md) seleciona os atos do DOU relevantes para a Aurora só com regras (sem IA). Serve para comparar com a busca e a triagem deste fluxo.
+
 ## Limites conhecidos
 
 - A taxonomia foi calibrada com duas empresas reais (Light e a Aurora de teste). Revisar quando

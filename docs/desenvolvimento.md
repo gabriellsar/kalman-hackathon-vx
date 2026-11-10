@@ -55,4 +55,4 @@ Cuidados:
 | Lakehouse (ETLs) | [`pipeline`](../pipeline/README.md) · [matriz](../pipeline/matriz/README.md) · [DuckDB](../pipeline/DUCKDB.md) |
 | Front | [`front/web`](../front/web/README.md) |
 | Identidade visual | [`identidade-visual`](../identidade-visual/README.md) |
-| Análise dos atos relevantes (Aurora) | [`analises/atos-relevantes-aurora`](../analises/atos-relevantes-aurora/README.md) |
+| Linha de base por regras para as propostas (Aurora) | [`ia/propostas/atos-relevantes-aurora`](../ia/propostas/atos-relevantes-aurora/README.md) |

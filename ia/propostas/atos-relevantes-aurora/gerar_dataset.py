@@ -5,13 +5,13 @@ Só lê: o perfil no DynamoDB (um GetItem) e os atos em silver_db.dou_atos (SELE
 O Athena grava o resultado da consulta em --athena-output, como em qualquer consulta.
 
     # da raiz do repositório, com credenciais AWS válidas
-    uv run --with boto3 python analises/atos-relevantes-aurora/gerar_dataset.py
+    uv run --with boto3 python ia/propostas/atos-relevantes-aurora/gerar_dataset.py
 
     # sem AWS: atos de um arquivo .jsonl ou .csv com as colunas de silver_db.dou_atos
-    uv run --with boto3 python analises/atos-relevantes-aurora/gerar_dataset.py --atos atos.jsonl --sem-perfil-ao-vivo
+    uv run --with boto3 python ia/propostas/atos-relevantes-aurora/gerar_dataset.py --atos atos.jsonl --sem-perfil-ao-vivo
 
     # comparar com o dataset de outra pessoa (mesma chave de ato)
-    uv run python analises/atos-relevantes-aurora/gerar_dataset.py --comparar outro.csv --chave-outro id --nivel-outro nivel
+    uv run python ia/propostas/atos-relevantes-aurora/gerar_dataset.py --comparar outro.csv --chave-outro id --nivel-outro nivel
 
 Saída em --saida (padrão: saida/ ao lado deste arquivo):
     atos_relevantes.csv   um ato por linha, do mais relevante para o menos, com colunas
@@ -35,7 +35,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
-RAIZ = AQUI.parents[1]
+RAIZ = AQUI.parents[2]
 REGION = "us-east-1"
 PERFIL_BASE = RAIZ / "api" / "cnpj-cadastro" / "tests" / "aurora_dados.json"  # de onde os critérios saíram
 CAMPOS_DO_PERFIL = ("setor", "ufs_atuacao", "municipios_atuacao", "orgaos_fiscalizadores",

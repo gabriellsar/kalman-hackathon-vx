@@ -42,7 +42,6 @@ ia/                  agentes no Bedrock AgentCore (chatbot, cadastro) e o fluxo 
 pipeline/            ETLs do lakehouse (cadastro, dou, matriz, kb) com DuckDB + Iceberg
 front/web/           landing, cadastro, matriz e painel executivo (React 19 + Vite)
 identidade-visual/   marca, tokens e componentes (versão "Laudo")
-analises/            estudos e benchmarks
 docs/                esta documentação
 ```
 
