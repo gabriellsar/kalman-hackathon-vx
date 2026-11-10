@@ -17,6 +17,8 @@ propõe o que muda e transforma a mudança em tarefa com prazo e dono.
 
 <p align="center"><sub>Projeto do Hackathon VX · Desafio 02, Torre de controle regulatória</sub></p>
 
+https://github.com/user-attachments/assets/05cc3316-1dcc-4198-8d8a-55f09b3979f7
+
 ---
 
 ## O problema
